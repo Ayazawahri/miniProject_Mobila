@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_0df22ab443662d632838fd82f6ea38b2cba025a"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/signInView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:textSize="40sp"
+        android:layout_margin="60dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signInView"
+        android:layout_margin="10dp"
+        android:background="#30ffffff"
+        android:hint="@string/username"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_margin="10dp"
+        android:background="#30ffffff"
+        android:hint="@string/password"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:drawableStart="@drawable/ic_baseline_password_24"
+        android:drawablePadding="20dp"
+        android:inputType="textPassword"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+       android:text="@string/or_sign_in_with"
+        android:layout_centerHorizontal="true"/>
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true">
+    <ImageView
+        android:id="@+id/googleButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/illustration2_of_google_icon_on_transparent_background_png"
+        android:layout_margin="30dp"
+        android:contentDescription="@string/todo" />
+
+</LinearLayout>
+
+</RelativeLayout>

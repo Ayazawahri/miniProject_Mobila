@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "777823408956",
+    "project_id": "healthybodyapp-1672607631181",
+    "storage_bucket": "healthybodyapp-1672607631181.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777823408956:android:a0a3bb9f5934b4bcf94439",
+        "android_client_info": {
+          "package_name": "com.example.healthybody"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777823408956-4rjhb2k3rvfttrcf9qhmadmlr0a6aa78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthybody",
+            "certificate_hash": "e6a78f077e86758a3abfa2138e8a783aec44da31"
+          }
+        },
+        {
+          "client_id": "777823408956-okqbc5kjn3eugd6hmjp9cs0tj4vrlve8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG4q3oeGt5LGlOuUu42V7GuLqrURSYIgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777823408956-okqbc5kjn3eugd6hmjp9cs0tj4vrlve8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
